@@ -1,2 +1,5 @@
-# web1
-Geom99 group (web 1) Project Repository 
+# Geom 99 Group Project
+## Group: Web 1
+
+Git Repository for group project. 
+Readme will be updated. 
