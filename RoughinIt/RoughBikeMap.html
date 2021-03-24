@@ -6,15 +6,15 @@
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <div id='map' style='width: 400px; height: 300px;'></div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiamRlYm9ubyIsImEiOiJja21sOGp3czYxOGJxMnB0NHc5dThhZHB4In0.J1j1ZZ7CM1ACOWlLhxNCLA';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/jdebono/ckmnopq290osw17o7qrlzpcdu'
+    });
+    </script>
 
 </body>
 </html>
 
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
-    center: [-74.50, 40],
-    zoom: 9
-  });
