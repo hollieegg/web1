@@ -11,6 +11,10 @@ body {
 	float: right;
 }
 
+img {
+  border-radius: 50%;
+}
+
 .w3-margin w3-jumbo {
 	text-align: center;
 }
