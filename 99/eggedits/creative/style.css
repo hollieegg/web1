@@ -1,0 +1,74 @@
+
+
+ body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+/************** NAVBAR **************/
+ .navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    top:0;
+    left: 0;
+    
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:none;
+    padding: 8px, 16px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #777;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(230, 227, 227);
+    color: #000!important;
+
+  }
+
+
+  /************ HOME PAGE ***********************/
+  /* image (Logo. Full height) */
+.landing {
+    height: 100%;
+    opacity: 50%;
+    width: 100%;
+  }
+
+  .titlebanner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff!important;
+    background-color: #34a2fc!important;
+    padding: 12px 24px!important;
+    text-align: center!important;
+    font-size: 24px!important;
+    opacity: 90%;
+    animation: opac 10;
+    white-space: nowrap;
+    letter-spacing: 10px;
+}
+  
