@@ -54,6 +54,7 @@
     height: 100%;
     opacity: 50%;
     width: 100%;
+    
   }
 
   .titlebanner {
@@ -72,3 +73,15 @@
     letter-spacing: 10px;
 }
   
+@media screen and (max-width: 600px) {
+      .landing, .navbar, .titlebanner, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .landing {
+    width: 60%;
+  }
+}
