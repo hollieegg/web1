@@ -3,6 +3,14 @@ body {
 	font-family: 'Roboto', sans-serif;
   }
 
+.logo{
+	float: left;
+}
+
+.logo2{
+	float: right;
+}
+
 .w3-margin w3-jumbo {
 	text-align: center;
 }
