@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox.com/styles/v1/vanritto/ckn6u15wn0nzv17lm8p4o7x9v.html?fresh=true&title=view&access_token=pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ#8.99/44.2742/-78.1637',
+    style: 'mapbox://styles/mapbox/outdoors-v11',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja242cWV3MmMwZ20wMnVwc2czZjJzenNwIn0.PI62Np0H-aZ3ydTGcbM96g',
     showMarkers: true,
     theme: 'light',
