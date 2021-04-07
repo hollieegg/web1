@@ -1,0 +1,85 @@
+body {
+    background-color: lightgrey;
+	font-family: 'Roboto', sans-serif;
+  }
+
+.logo{
+	float: left;
+}
+
+.logo2{
+	float: right;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  display: block; /
+	
+}
+
+.w3-margin w3-jumbo {
+	text-align: center;
+}
+
+.top {
+	background-color: #lightgrey;
+    text-align: center;
+    padding: 20px;
+	font-family: 'Fira Sans', sans-serif;
+  }
+	
+  /* header */
+.header {
+    background-color: #88abc6;
+    text-align: center;
+    padding: 20px;
+	font-family: 'Fira Sans', sans-serif;
+  }
+h1 {
+    color: black;
+    margin-left: 20px;
+	font-family: 'Fira Sans', sans-serif;
+  }
+  
+h2 {
+    color: black;
+    margin-left: 15px;
+	font-family: 'Fira Sans', sans-serif;
+  }
+
+  /* nav bar */
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #58595b;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+
+  /* footer */
+.footer {
+    background-color: #88abc6;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* BUTTON INFO FOR START PAGE https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h*/
+.button {width: 300px}
