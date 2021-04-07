@@ -40,7 +40,7 @@ var coordinates = data.features[0].geometry.coordinates;
 data.features[0].geometry.coordinates = [coordinates[0]];
  
 // add it to the map
-map.addSource('trace', { type: 'geojson', data: data });
+map.addSource('trace', { type: 'geojson', data: data, tolerance: 0.375 });
 map.addLayer({
 'id': 'trace',
 'type': 'line',
@@ -69,7 +69,7 @@ i++;
 } else {
 window.clearInterval(timer);
 }
-}, 0);
+}, 5);
 }
 );
 });
