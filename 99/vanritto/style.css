@@ -22,7 +22,7 @@ h4 {
 /************** HEADER **************/
 .header {
   padding-top: 0px;
-  opacity: 20%;
+  opacity: 15%;
   padding-top: 36px;
   overflow: hidden;
  
@@ -181,7 +181,7 @@ h4 {
     background-color: rgb(192, 192, 192);
     /* opacity: 0.80; */
     font-size: 14px;
-    height: 120pt;
+    height: 100pt;
     width: 100%;
 
 
