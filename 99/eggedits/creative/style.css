@@ -12,6 +12,37 @@ h3 {
    font-size: 24px;
 }
 
+/* About Us Job titles */
+h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/************** HEADER **************/
+.header {
+  padding-top: 0px;
+  opacity: 20%;
+  padding-top: 36px;
+  
+  
+}
+
+.headertext {
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    color: #fff;
+    background-color: #88abc6;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 24px;
+    white-space: nowrap;
+    letter-spacing: 10px;
+}
+  
 
 
 /************** NAVBAR **************/
@@ -23,6 +54,9 @@ h3 {
     display: block;
     top:0;
     left: 0;
+    background-color: #4f5053;
+    /* border-bottom: solid;
+    border-color: #3b3b3b; */
     
  }
 
@@ -41,7 +75,7 @@ h3 {
   
   li a {
     display: block;
-    color: #777;
+    color: rgb(230, 230, 230);
     font-size: 15px;
     text-align: center;
     padding: 14px 16px;
@@ -59,24 +93,22 @@ h3 {
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
 .landing {
-    height: 100%;
-    opacity: 50%;
-    width: 100%;
+    opacity: 40%;
+    position: fixed;
     
   }
 
+
   .titlebanner {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #fff;
-    background-color: #34a2fc;
+    background-color: #88abc6;
     padding: 12px 24px;
     text-align: center;
     font-size: 24px;
-    opacity: 90%;
-    animation: opac 10;
     white-space: nowrap;
     letter-spacing: 10px;
 }
@@ -112,10 +144,9 @@ h3 {
   width: 20%;
   float:left;
   text-align: center;
-  padding-left:0 2.5%; 
+  padding-left: 2.5%; 
   padding-right: 2.5%;
 
-  
 }
 
 .row:after {
@@ -196,15 +227,16 @@ h3 {
 
 
 @media screen and (max-width: 600px) {
-      .landing, .navbar, .titlebanner, input[type=submit] {
+      .navbar, .titlebanner, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
   }
   
   @media screen and (max-width: 600px) {
-    .landing {
-    width: 60%;
+    .landing, .header {
+    width: 100%;
+    position: relative;
   }
 }
 
