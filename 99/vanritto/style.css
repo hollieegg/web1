@@ -162,9 +162,11 @@ h4 {
 .content2 {
 
   padding-top: 50px;
-  padding-left:100px;
-  padding-right:100px;
-  width: 60%;
+  padding-left:120px;
+  padding-right:120px;
+  width: 80%;
+  overflow: hidden;
+
 
   
   
