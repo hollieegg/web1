@@ -19,59 +19,113 @@ body { margin: 0; padding: 0; }
 	mapboxgl.accessToken = 'pk.eyJ1IjoicmFnaGFkZXN0YW5ib3VsaSIsImEiOiJja21vdmE1cWgyOHYxMnVtZ2EweTlzNW9rIn0.pH1YN5MUUxqb-py-3V6fcg';
 var map = new mapboxgl.Map({
 container: 'map',
-style: 'mapbox://styles/mapbox/streets-v11',
-zoom: 0
+zoom: 13.1,
+center: [-89.2452089669999,48.4066798490001],
+pitch: 85,
+bearing: 80,
+style: 'mapbox://styles/mapbox-map-design/ckhqrf2tz0dt119ny6azh975y'
 });
  
 map.on('load', function () {
+map.addSource('mapbox-dem', {
+'type': 'raster-dem',
+'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+'tileSize': 512,
+'maxzoom': 14
+});
+// add the DEM source as a terrain layer with exaggerated height
+map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+ 
+// add a sky layer that will show when the map is highly pitched
+map.addLayer({
+'id': 'sky',
+'type': 'sky',
+'paint': {
+'sky-type': 'atmosphere',
+'sky-atmosphere-sun': [0.0, 0.0],
+'sky-atmosphere-sun-intensity': 15
+}
+});
+
 // We use D3 to fetch the JSON here so that we can parse and use it separately
 // from GL JS's use in the added source. You can use any request method (library
 // or otherwise) that you want.
 d3.json(
 //'https://docs.mapbox.com/mapbox-gl-js/assets/hike.geojson',
-'https://raghadestanbouli.github.io/Mapbox/jenn.geojson', 
+'https://raw.githubusercontent.com/RaghadEstanbouli/Mapbox/main/test2.geojson',
+//https://hollieegg.github.io/web1/RoughinIt/Liberty_Bike.geojson,
 function (err, data) {
 if (err) throw err;
 
-var coordinates = data.features[0].geometry.coordinates;
+
+var coor = data.features[0].geometry.coordinates;
  
-// start by showing just the first coordinate
-data.features[0].geometry.coordinates = [coordinates[0]];
+	// start by showing just the first coordinate
+	data.features[0].geometry.coordinates = [coor[0]];
+	 
+	// add it to the map
+	map.addSource('raghad', { type: 'geojson', data: data });
+	map.addLayer({
+	'id':'0',
+	'type': 'line',
+	'source': 'raghad',
+	'generateId': true,
+	'paint': {
+	'line-color': '#92008c',
+	'line-opacity': 0.75,
+	'line-width': 10
+	}
+	});
+	 
+	map.jumpTo({ 'center': [-89.2452089669999,48.4066798490001], 'zoom': 12, bearing: 200, });
+	map.setPitch(60);
  
-// add it to the map
-map.addSource('trace', { type: 'geojson', data: data });
-map.addLayer({
-'id': 'trace',
-'type': 'line',
-'source': 'trace',
-'paint': {
-'line-color': 'yellow',
-'line-opacity': 0.75,
-'line-width': 5
-}
+
+  // code block to be executed
+
+	var i = 0;
+	var timer = window.setInterval(function () {
+	if (i < coor.length) {
+	data.features[0].geometry.coordinates.push(
+	coor[i]
+	);
+	map.getSource('raghad').setData(data);
+	map.panTo(coor[i],{duration: 100});
+	i++;
+	} 
+	}, 1);
+
+	var coordinates1 = data.features[1].geometry.coordinates;
+	if (i == coor.length){
+ 	var j = 0;
+	var timer = window.setInterval(function () {
+	if (j < coordinates1.length) {
+	data.features[1].geometry.coordinates.push(
+	coordinates1[j]
+	);
+	//map.getSource('trace').setData(data);
+	map.panTo(coordinates1[j],{duration: 100});
+	j++;
+	} else {
+	window.clearInterval(timer);
+	}
+	}, 1);}
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
- 
-// setup the viewport
-map.jumpTo({ 'center': [-448.83544921874994,48.719961222646276], 'zoom': 8, bearing: -200, });
-map.setPitch(60);
- 
-// on a regular basis, add more coordinates from the saved list and update the map
-var i = 0;
-var timer = window.setInterval(function () {
-if (i < coordinates.length) {
-data.features[0].geometry.coordinates.push(
-coordinates[i]
-);
-map.getSource('trace').setData(data);
-map.panTo(coordinates[i]);
-i++;
-} else {
-window.clearInterval(timer);
-}
-}, 1000);
 }
 );
-});
 </script>
  
 </body>
