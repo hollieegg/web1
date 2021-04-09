@@ -93,8 +93,9 @@ h4 {
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
 .landing {
-    opacity: 40%;
-    position: fixed;
+    opacity: 30%;
+    position: absolute;
+    padding-top: 50px;
     
   }
 
