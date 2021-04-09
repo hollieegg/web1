@@ -104,14 +104,16 @@ h3 {
 }
 
 .row3 {
-  height: 280px;
+  height: 380px;
 
 }
 
 .column {
-  width: 25%;
+  width: 20%;
   float:left;
   text-align: center;
+  padding-left:0 2.5%; 
+  padding-right: 2.5%;
 
   
 }
@@ -122,53 +124,6 @@ h3 {
   clear: both;
 }
 
-/* Hover text 
-
-/* the wrapper is the block. for alot of the following attributes i refered to w3 wschools */
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-flow: row wrap;
-  background-color: none;
- 
-}
-
-
-/* media/images sizing and options. */
-.images {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-
-/* this is for the text layer that is presnt when hovering over image */
-.layer {
-  opacity: 0;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 200%;
-  text-align: center;
-  padding: 5px;
-  background: #FFF;
-  color: #151E3F;
-  transition: all 1s ease;
-}
-
-/* hover options. For experimenting and learning about transition options e.g speed and easingi referenced https://www.w3schools.com/css/css3_transitions.asp */
-.images:hover .layer {
-  opacity: 0.7;
-  width: 100%;
-  transition-timing-function: ease-in-out;
-}
 
 /*************** FOOTER ******************/
 
