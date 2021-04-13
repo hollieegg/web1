@@ -5,13 +5,37 @@
         <!-- Link to the CSS Style sheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
     </head>
+    
     <div class="navbar">
         <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="aboutus.html"><i class="fa fa-user"></i> ABOUT US</a></li>
-            <li><a href="project.html"><i class="fa fa-th"></i> PROJECT</a></li>
+            <li><div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()"><i class="fa fa-caret-down"></i> PROJECT
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="solutions.html">SOLUTIONS</a>
+                </div>
+            </div></li>
+            <!-- <li><a href="project.html"><i class="fa fa-th"></i> PROJECT</a></li> -->
             <li><a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a></li>
         </ul>
     </div>
