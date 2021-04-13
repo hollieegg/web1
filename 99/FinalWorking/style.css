@@ -177,6 +177,8 @@ h4 {
 /*************** FOOTER ******************/
 
 .footer {
+  position: sticky;
+  bottom:0px;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -189,6 +191,7 @@ h4 {
 
 
 }
+
 
 /* .footertext {
     text-align: center;
