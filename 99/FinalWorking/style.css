@@ -174,13 +174,6 @@ h4 {
   overflow: auto;
 }
 
-.overlay i{
- 
-  font-size: 1.15em;
-  font-weight: 1000;
-  font-style: normal;
-  
-}
 
 .column img{
   width: 200px;
@@ -192,7 +185,9 @@ h4 {
 
   bottom: 0;
   height: 100%;
-  }
+  
+
+}
 
 .column:hover{
 
