@@ -121,41 +121,35 @@ h4 {
 .content {
 
     padding: 20px;
+
     
     
 }
 
 .row{
+  padding:1%;
   width: 100%;
   height: 80px;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   
 }
 
-.row2 {
-  height: 320px;
-
-}
-
-.row3 {
-  height: 380px;
-
-}
 
 .column {
-  width: 20%;
-  float:left;
+  width: 60%;
+  display: block;
   text-align: center;
-  padding-left: 2.5%; 
-  padding-right: 2.5%;
+  margin-top: 3%;
+  padding:2%;
 
 }
-
+/*
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 /************** PROJECT *******************/
 
@@ -177,11 +171,12 @@ h4 {
 /*************** FOOTER ******************/
 
 .footer {
-  position: sticky;
-  bottom:0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #fff;
     background-color: rgb(192, 192, 192);
     /* opacity: 0.80; */
