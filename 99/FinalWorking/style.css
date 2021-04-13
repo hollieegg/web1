@@ -47,49 +47,92 @@ h4 {
 
 
 /************** NAVBAR **************/
- .navbar {
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1;
-    display: block;
-    top:0;
-    left: 0;
-    background-color: #4f5053;
-    /* border-bottom: solid;
-    border-color: #3b3b3b; */
-    
- }
-
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:none;
-    padding: 8px, 16px;
-  }
+.navbar {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  display: block;
+  top:0;
+  left: 0;
+  background-color: #4f5053;
+  /* border-bottom: solid;
+  border-color: #3b3b3b; */
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(230, 230, 230);
-    font-size: 15px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: rgb(230, 227, 227);
-    color: #000;
+}
 
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:none;
+  padding: 8px, 16px;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(230, 230, 230);
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
+  background-color: rgb(230, 227, 227);
+  color: #000;
+
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+} 
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none; 
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0; 
+  
+}
+
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
 
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
@@ -170,13 +213,6 @@ h4 {
   overflow: auto;
 }
 
-.overlay i{
- 
-  font-size: 1.15em;
-  font-weight: 1000;
-  font-style: normal;
-  
-}
 
 .column img{
   width: 200px;
@@ -188,7 +224,9 @@ h4 {
 
   bottom: 0;
   height: 100%;
-  }
+  
+
+}
 
 .column:hover{
 
