@@ -250,6 +250,13 @@ h4 {
 
 }
 
+.infotext{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25%;
+  padding-right: 22%;
+}
 
  /* BUTTON INFO FOR START PAGE https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h*/
  .button {width: 300px}
