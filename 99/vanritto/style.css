@@ -172,7 +172,6 @@ h4 {
   
 }
 
-/************** CONTACT US ****************/
 
 /*************** FOOTER ******************/
 
@@ -272,6 +271,12 @@ h4 {
  }
  
  /* Style the submit button */
+/*  To center it?
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    or just
+  margin: auto;*/
  input[type=submit] {
    background-color: #88abc6;
    color: white;
@@ -281,7 +286,7 @@ h4 {
    cursor: pointer;
    float: left;
    width: 100px;
- 
+   margin: auto;
  }
  
  /* Style the container */
