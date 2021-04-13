@@ -388,7 +388,7 @@ h4 {
    cursor: pointer;
    float: left;
    width: 100px;
- 
+  margin: auto;
  }
  
  /* Style the container */
