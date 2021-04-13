@@ -127,14 +127,10 @@ h4 {
 }
 
 .row{
-  
-  
+   
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 1%;
-  
-  
-  
 }
 
 
@@ -197,6 +193,21 @@ h4 {
 .column:hover{
 
   box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
+
+
+  @media screen and (max-width:1380px) {
+    .row {
+      display:block;
+    }
+  
+    .overlay p{
+      font-size: 2em;
+      overflow: scroll;
+      padding:1%;
+    }
+  
+  
+  }
 
 /*
 .row:after {
@@ -287,7 +298,7 @@ h4 {
     padding-top: 5px;
     padding-bottom: 5px;
     color: #fff;
-    background-color: rgb(192, 192, 192);
+    background-color: #4f5053;
     /* opacity: 0.80; */
     font-size: 14px;
     height: 100pt;
@@ -296,6 +307,39 @@ h4 {
 
 }
 
+
+.footer p{
+  padding: 2%;
+
+}
+
+
+.footer a{
+  color: white;
+
+}
+
+.logo1 {
+position:absolute;
+right:5%;
+top:25%}
+
+
+.logo2 {
+  position:absolute;
+  left:5%;
+  top:25%;
+   }
+
+
+   
+/* icons only */
+.socialmedia {
+  color: white;
+  float: right;
+  font: normal normal normal 76px/1 FontAwesome;
+
+} 
 
 /* .footertext {
     text-align: center;
@@ -308,40 +352,26 @@ h4 {
 
 
 } */
-
+/*
 .logo1 {
-    float: left;
-    padding: 2px;
-    width: 33%
- 
-    
-    
+    position:absolute ;
+    bottom: 55%;
+    left:45%
 }
 
 .logo2 {
-    float: left;
-    padding-top: 2px;
-    width: 33%;
-}
+  position:absolute ;
+}*/
 
-/* icons only */
-.socialmedia {
-    color: white;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    font: normal normal normal 26px/1 FontAwesome;
-    
-   
 
-} 
 
-/* wraps around links and social media icons */
+/* wraps around links and social media icons 
 .socialmedia3 {
     float: left;
     width: 33%;
 
 } 
-/* .hoverfooter a:hover {
+ .hoverfooter a:hover {
     color: #fff;
     background-color: #000;
   
