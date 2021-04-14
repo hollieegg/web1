@@ -297,7 +297,6 @@ h4 {
 
   padding-top: 50px;
   padding-left:10%;
-  padding-bottom: 5%;
   padding-right:10%;
   width: 80%;
   overflow: hidden;
@@ -367,7 +366,7 @@ h4 {
 /*************** FOOTER ******************/
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
     text-align: center;
