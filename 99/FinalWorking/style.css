@@ -296,10 +296,12 @@ h4 {
 }*/
 
 /************** PROJECT *******************/
-
 .content2 {
 
- 
+  padding-top: 50px;
+  padding-left:10%;
+  padding-right:10%;
+  width: 80%;
   overflow: hidden;
   text-align: center;
   line-height: 150%;
@@ -362,6 +364,11 @@ h4 {
   
  
 }
+
+
+  
+  
+
 /************** CONTACT US ****************/
 
 /*************** FOOTER ******************/
