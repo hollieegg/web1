@@ -55,10 +55,10 @@ h4 {
     display: block;
     top:0;
     left: 0;
-    background-color: #4f5053;
+    background-color:#58595c;
     /* border-bottom: solid;
-    border-color: #3b3b3b; */
-    
+    border-color: #3b3b3b; 
+    */
  }
 
  ul {
@@ -68,12 +68,15 @@ h4 {
     overflow: hidden;
     background-color:none;
     padding: 8px, 16px;
+    
   }
   
   li {
     float: left;
-  }
   
+ 
+  }
+
   li a {
     display: block;
     color: rgb(230, 230, 230);
@@ -81,60 +84,64 @@ h4 {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+  } 
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
-    background-color: rgb(230, 227, 227);
-    color: #000;
-
-  }
   .dropdown {
     float: left;
     overflow: hidden;
   } 
-  
-  .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
+    background-color: rgb(230, 227, 227);
+    color: white;
     border: none;
     outline: none; 
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0; 
-    
+
   }
-  
-  
+
+  .dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #88abc6;
+  }
+
   .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #f9f9f9;
+    background-color: #58595c;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
+
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color:white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
+
+ 
   .show {
     display: block;
   }
 
+  
 
+  
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
 .landing {
@@ -220,18 +227,69 @@ h4 {
 /*************** FOOTER ******************/
 
 .footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #fff;
+    background-color: #58595c;
+    /* opacity: 0.80; */
+    font-size: 14px;
+    height: auto;
+    width: 100%;
+   
+
+
+}
+
+
+.footer p{
+  padding: 2%;
+
+}
+
+
+.footer a{
+  color: white;
+
+}
+
+.logo1 {
+position:absolute;
+right:5%;
+top:15%}
+
+
+.logo2 {
+  position:absolute;
+  left:5%;
+  top:25%;
+   }
+
+
+   
+/* icons only */
+.socialmedia {
+  color: white;
+  float: right;
+  font: normal normal normal 76px/1 FontAwesome;
+
+} 
+/* .footer {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #fff;
     background-color: rgb(192, 192, 192);
     /* opacity: 0.80; */
-    font-size: 14px;
+    /* font-size: 14px;
     height: 100pt;
     width: 100%;
 
 
-}
+} */ 
 
 /* .footertext {
     text-align: center;
@@ -244,7 +302,7 @@ h4 {
 
 
 } */
-
+/* 
 .logo1 {
     float: left;
     padding: 2px;
@@ -258,10 +316,10 @@ h4 {
     float: left;
     padding-top: 2px;
     width: 33%;
-}
+} */
 
 /* icons only */
-.socialmedia {
+/* .socialmedia {
     color: white;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -269,14 +327,14 @@ h4 {
     
    
 
-} 
+}  */
 
 /* wraps around links and social media icons */
-.socialmedia3 {
+/* .socialmedia3 {
     float: left;
     width: 33%;
 
-} 
+}  */
 /* .hoverfooter a:hover {
     color: #fff;
     background-color: #000;
