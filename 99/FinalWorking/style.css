@@ -305,6 +305,7 @@ h4 {
   overflow: hidden;
   text-align: center;
   line-height: 150%;
+  
 
 
 
@@ -381,11 +382,13 @@ h4 {
 /*************** FOOTER ******************/
 
 .footer {
-  position: fixed;
+  position: relative;
+  z-index: auto;
   left: 0;
   bottom: 0;
+  top: 100px;
     text-align: center;
-    padding-top: 2px;
+    padding-top: 0px;
     padding-bottom: 2px;
     color: #fff;
     background-color: #58595c;
