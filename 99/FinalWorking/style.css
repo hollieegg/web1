@@ -47,6 +47,7 @@ h4 {
     font-size: 24px;
     white-space: nowrap;
     letter-spacing: 10px;
+   
 }
   
 
@@ -127,7 +128,7 @@ h4 {
  }
   .topnav button{display: none;}
   .topnav a.icon {
-  /*  float: right;*/
+    float: right;
     display: block;
     
   }
@@ -159,14 +160,15 @@ h4 {
 }
 
 
-
+/*
 @media screen and (max-width: 1400px) {
 .navbar a{
   font-size: smaller;
-}}
+}}*/
 @media screen and (max-width: 1400px) {
-  .navbar button{
-    font-size:larger;
+  .navbar a{
+    height: 15px;
+    font-size: larger;
   }}
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
@@ -398,7 +400,7 @@ h4 {
 .logo1 {
 position:absolute;
 right:5%;
-top:25%}
+top:15%}
 
 
 .logo2 {
