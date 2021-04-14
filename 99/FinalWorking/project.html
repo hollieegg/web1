@@ -5,19 +5,35 @@
         <!-- Link to the CSS Style sheet -->
         <link href="style.css" type="text/css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+		<script src="vanritto.js"></script>
+
     </head>
     <body>
     
         <!-- HEADER-->
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="aboutus.html"><i class="fa fa-user"></i> ABOUT US</a></li>
-            <li><a href="project.html"><i class="fa fa-th"></i> PROJECT</a></li>
-            <li><a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a></li>
-        </ul>
-    </div>
+   <!--navbar-->
+   <div class="navbar">
+         
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">HOME</a>
+		<a href="aboutus.html"><i class="fa fa-user"></i> ABOUT US</a>
+		<div class="dropdown">
+			<button class="dropbtn">PROJECT <i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content">
+				<a href="project.html">PROJECT</a>
+				<a href="discoveries.html">DISCOVERIES</a>
+				<a href="solutions.html">SOLUTIONS</a>
+			</div>
+		</div> 
+		<a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
+
+	</div>
+	<!--End Navbar-->
 
     <div class="header">
         <img src="images/logobanner.png" height="100%" width="">
