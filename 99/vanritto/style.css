@@ -12,6 +12,10 @@ h3 {
    font-size: 24px;
 }
 
+body {
+  margin:0;
+
+}
 /* About Us Job titles */
 h4 {
   text-align: center;
@@ -56,9 +60,7 @@ h4 {
     top:0;
     left: 0;
     background-color:#58595c;
-    /* border-bottom: solid;
-    border-color: #3b3b3b; 
-    */
+    
  }
 
  ul {
@@ -137,10 +139,9 @@ h4 {
  
   .show {
     display: block;
-  }
+  } 
 
   
-
   
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
