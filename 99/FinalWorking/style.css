@@ -7,6 +7,8 @@
     color: #777;
 }
 
+body {margin:0;font-family:Arial}
+
 h3 {
    text-align: center;
    font-size: 24px;
@@ -47,9 +49,12 @@ h4 {
 
 
 /************** NAVBAR **************/
+
+
 .navbar {
   overflow: hidden;
   background-color: #58595c;
+  margin-top: 0;
 }
 
 .navbar a {
@@ -118,7 +123,7 @@ h4 {
   .topnav a:not(:first-child) {display: none;}
   .topnav button{display: none;}
   .topnav a.icon {
-    float: right;
+  /*  float: right;*/
     display: block;
     
   }
