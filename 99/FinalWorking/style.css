@@ -386,9 +386,9 @@ h4 {
   z-index: auto;
   left: 0;
   bottom: 0;
-  top: 50px;
+  top: 200px;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 2px;
     padding-bottom: 2px;
     color: #fff;
     background-color: #58595c;
@@ -416,13 +416,14 @@ h4 {
 .logo1 {
 position:absolute;
 right:5%;
-top:15%}
+top:10%;
+bottom:10%}
 
 
 .logo2 {
   position:absolute;
   left:5%;
-  top:25%;
+  top:15%;
    }
 
 
