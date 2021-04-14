@@ -57,8 +57,8 @@ h4 {
     left: 0;
     background-color:#58595c;
     /* border-bottom: solid;
-    border-color: #3b3b3b; */
-    
+    border-color: #3b3b3b; 
+    */
  }
 
  ul {
@@ -77,23 +77,15 @@ h4 {
  
   }
 
-  /* li a {
+  li a {
     display: block;
     color: rgb(230, 230, 230);
     font-size: 15px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  } */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
+  } 
+  
   .dropdown {
     float: left;
     overflow: hidden;
@@ -148,9 +140,6 @@ h4 {
   }
 
   
-
-
-
 
   
   /************ HOME PAGE ***********************/
@@ -238,18 +227,69 @@ h4 {
 /*************** FOOTER ******************/
 
 .footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #fff;
+    background-color: #58595c;
+    /* opacity: 0.80; */
+    font-size: 14px;
+    height: auto;
+    width: 100%;
+   
+
+
+}
+
+
+.footer p{
+  padding: 2%;
+
+}
+
+
+.footer a{
+  color: white;
+
+}
+
+.logo1 {
+position:absolute;
+right:5%;
+top:15%}
+
+
+.logo2 {
+  position:absolute;
+  left:5%;
+  top:25%;
+   }
+
+
+   
+/* icons only */
+.socialmedia {
+  color: white;
+  float: right;
+  font: normal normal normal 76px/1 FontAwesome;
+
+} 
+/* .footer {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
     color: #fff;
     background-color: rgb(192, 192, 192);
     /* opacity: 0.80; */
-    font-size: 14px;
+    /* font-size: 14px;
     height: 100pt;
     width: 100%;
 
 
-}
+} */ 
 
 /* .footertext {
     text-align: center;
@@ -262,7 +302,7 @@ h4 {
 
 
 } */
-
+/* 
 .logo1 {
     float: left;
     padding: 2px;
@@ -276,10 +316,10 @@ h4 {
     float: left;
     padding-top: 2px;
     width: 33%;
-}
+} */
 
 /* icons only */
-.socialmedia {
+/* .socialmedia {
     color: white;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -287,14 +327,14 @@ h4 {
     
    
 
-} 
+}  */
 
 /* wraps around links and social media icons */
-.socialmedia3 {
+/* .socialmedia3 {
     float: left;
     width: 33%;
 
-} 
+}  */
 /* .hoverfooter a:hover {
     color: #fff;
     background-color: #000;
