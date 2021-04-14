@@ -386,7 +386,13 @@ h4 {
 
 
 }
+@media screen and (max-width:1380px) {
+  .footer {
+    position: fixed;
+  }
 
+   
+}
 
 .footer p{
   padding: 2%;
