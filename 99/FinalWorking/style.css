@@ -7,7 +7,10 @@
     color: #777;
 }
 
-body {margin:0;font-family:Arial}
+body {
+  margin:0;font-family:Arial
+
+}
 
 h3 {
    text-align: center;
@@ -120,7 +123,8 @@ h4 {
 }
 
 @media screen and (max-width: 1000px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {display: none;
+ }
   .topnav button{display: none;}
   .topnav a.icon {
   /*  float: right;*/
@@ -156,11 +160,14 @@ h4 {
 
 
 
-@media screen and (max-width: 1000px) {
-.navbar {
-  width: 100%;
+@media screen and (max-width: 1400px) {
+.navbar a{
+  font-size: smaller;
 }}
-
+@media screen and (max-width: 1400px) {
+  .navbar button{
+    font-size:larger;
+  }}
   /************ HOME PAGE ***********************/
   /* image (Logo. Full height) */
 .landing {
@@ -216,7 +223,10 @@ h4 {
   position: relative;
 
 }
-
+@media screen and (max-width: 1400px) {
+  .column {
+    width: auto;
+  }}
 .overlay{
   position: absolute;
   bottom: 100%;
@@ -287,6 +297,7 @@ h4 {
 
   padding-top: 50px;
   padding-left:10%;
+  padding-bottom: 5%;
   padding-right:10%;
   width: 80%;
   overflow: hidden;
@@ -368,6 +379,7 @@ h4 {
     font-size: 14px;
     height: auto;
     width: 100%;
+   
 
 
 }
