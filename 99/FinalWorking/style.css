@@ -386,7 +386,7 @@ h4 {
   z-index: auto;
   left: 0;
   bottom: 0;
-  top: 100px;
+  top: 50px;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 2px;
@@ -400,13 +400,7 @@ h4 {
 
 
 }
-@media screen and (max-width:1380px) {
-  .footer {
-    position: fixed;
-  }
 
-   
-}
 
 .footer p{
   padding: 2%;
