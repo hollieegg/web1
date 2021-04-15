@@ -439,6 +439,7 @@ h1 {
     font-size: 14px;
     height: auto;
     width: 100%;
+
    
 
 
@@ -453,6 +454,7 @@ h1 {
 
 .footer a{
   color: white;
+  text-decoration: none;
 
 }
 
