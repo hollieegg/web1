@@ -612,9 +612,19 @@ top:15%}
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 25%;
-  padding-right: 22%;
+  padding-left: 0%;
+  padding-right: 0%;
+  /* background-color: #58595c0a; */
+  width: 100%;
+
   
+}
+.infotext p{
+  
+  font-size: 18px;
+  font-weight: 800;
+  text-align: justify;
+  color: #58595c;
 }
 
 .infobox{
@@ -623,6 +633,8 @@ top:15%}
   width: 80%;
   margin-left: 10%;
   margin-top: 50px;
+
+ 
 
 }
 
