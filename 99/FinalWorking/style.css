@@ -237,7 +237,7 @@ color: #58595c;}
   left: 0;
   right: 0;
   background-color: #88abc6;
-  overflow: scroll;
+  overflow: auto;
   width: 100%;
   height:0;
   transition: .5s ease;
