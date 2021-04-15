@@ -135,9 +135,15 @@
         <h2>Discovering How to Live Update Features</h2>
         <div class="contenttext">
 	            
-                <p> Attempting to find a great solution for animating a path or line came from disovering animation of a route in a web map using the Mapbox GL JS tutorial, <a href="https://docs.mapbox.com/mapbox-gl-js/example/live-update-feature/">Update a Feature in Realtime</a>. 
-                    This tutorial provided framework where a feature that exists on a map can be updated. The tutorial example displays a path being drawn where the map view moves along side, following
-		            where the route is going - as though the data is occuring in real-time, like how Live Tracking would be displayed!</p>
+                <p> Attempting to find a great solution for animating a point along a path lead the team to discovering another Mapbox tutorial, 
+		<a href=”https://docs.mapbox.com/mapbox-gl-js/example/live-update-feature/” target=”_blank”>Update a Feature in Realtime</a>, 
+		that involved animation of a route in a web map using <a href="https://www.mapbox.com/mapbox-gljs“ target=”_blank”>Mapbox GL JS</a>.</p>
+		
+			
+		<p>This tutorial provided framework where a feature that exists on a map can be updated. In the example of the tutorial shown to 
+		the right, a path is being drawn where the map view moves along side, following where the route is going - as though the 
+		data is occurring in real-time, like how Live Tracking would be displayed!</p>
+			
 	    </div>        
                 <p>
                 <a class="button" href="https://www.mapbox.com/solutions/interactive-storytelling/?utm_campaign=blog%7Cmapbox-blog%7Csolutions%7Chow-to-build-a-scrollytelling-map-ead6baf2cd1b-19-11&utm_content=how-to-build-a-scrollytelling-map-ead6baf2cd1b&utm_medium=blog&utm_source=mapbox-blog&utm_term=solutions" >Read More</a>
@@ -155,9 +161,13 @@
         
                 <h2>GeoJSON and Custom Animation</h2>
                 
-                <p>Exploring the tutorial provided a method to examine the working of basic line animation using a GeoJSON, but the team had yet to sucessfully impliment 
-                    working GeoJSON of our own. Some experimentation evolved into the map below, with modified base mapping, and line colouring, and ideas
-                    on how to manipulate timing and view in the web map</p>
+                <p>Exploring the tutorial further led the team to discover a method to examine the working of basic line animation using a GeoJSON. 
+			The team worked to try implement a custom GeoJSON created ArcGIS Pro as Mapbox struggles to support large GeoJSON files. 
+			However, the team was unable to get the animation to work with an external GeoJSON in the code. </p>
+			
+		<p>The team continued to experiment with customization of the tutorial with the original GeoJSON file from Mapbox and created a 
+			customized web map with modified base mapping, line colouring, and through this, understood how to manipulate timing and 
+			view in the web map.</p>
           
             </div>
         
@@ -172,13 +182,16 @@
                 
                 <h2>Figuring Out Animation</h2>
 	   
-                <p>Trial and error finally yields positive results when the team loads a working GeoJSOn for the first time. Experimenting with options like preparing 
-                    line files in google maps and ESRI ArcGIS Online led to the discovery that a lot of non-native GeoJSON files would not load into Mapbox without 
-                    manipulation of the files to remove the CRS information. The example in the demonstration below shows a line feature created in ArcGIS Pro, converted 
-                    to GeoJSON in ArcGIS Online, and manipulated to remove the CRS information causing a load error in Mapbox. The team discovered we could host the 
-                    GeoJSON right in the HTML and bypass keeping it in Mapbox.</p>
-                
-                <p>The GeoJson continued to prove problematic and required more investigation.</p>
+                <p>Trial and error finally yielded positive results when the team was finally able to load a working external GeoJSON for the first time.
+		Experimenting with options like preparing line files in Google Maps and ESRI ArcGIS Online led to the discovery that many non-native 
+			GeoJSON files cannot be loaded into Mapbox without proper manipulation of the files to remove the CRS information.</p>
+
+		<p>The example in the demonstration to the right below shows a line feature created in ArcGIS Pro, converted to GeoJSON in ArcGIS 
+			Online, and manipulated to remove the CRS information, which was the cause of a load error in Mapbox. The team discovered that 
+			they could host the GeoJSON right in the HTML and bypass keeping it in Mapbox.</p>
+
+		<p>This success came along with a failure as the GeoJSON continued to prove problematic and required more investigation.</p>
+
              
             </div> 
             
@@ -193,12 +206,20 @@
             
                 <h2>The Final Solution</h2>
             
-                <p>After understanding the shortcomings of the modified GeoJson, the Team went to Mapbox and created a new modified line feature, with an intermediate 
-                    number of points to roughly resemble to proposed bike route for the project. Some quick alterations to the line colour and opacity, and loading a 
-                    custom map style, also generated in Mapbox. We finally reached a reasonable success. We now know that we need to refine the GeoJSON to be an in-between 
-                    number of points from too few (which results in faster traversal of the line segment and jerky camera motion) and too many, which results in very slow 
-                    but smooth movements, like we saw in the initial demonstration templates. Manipulation of the interval timer will also be crucial for constructing a 
-                    web map that has smooth animation, draws more slowly, properly follows the designated route along with roads.<p>
+ 		<p>After understanding the shortcomings of the external modified GeoJSON, the team went back to research using Mapbox’s own GeoJSON 
+			files and found a solution!</p>
+
+		<p>Going back to Mapbox, them team found that by creating a new modified line feature, with an intermediate number of points, they 
+			were able to roughly resemble to proposed bike route for the project. Along with some customization to the line colour and 
+			opacity, and custom map style loaded and applied (generated in Mapbox), a reasonable of an animated line was found.</p> 
+
+		<p>From this journey, the team now understands that in order to refine the GeoJSON, that there is a “lucky number” of points where 
+			too few points result in a faster traverse of the line segment and jerky motion, and too many results in very slow but smooth 
+			movements, similar to what was observed in the initial demonstration templates above.</p>
+
+		<p>Lastly, manipulation of the interval timer will also be crucial for constructing a web map that has smooth animation, draws 
+			more slowly, properly follows the designated route along with roads.</p>
+
             </div> 
         
             <div class="imageimage">
