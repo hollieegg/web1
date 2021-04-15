@@ -433,6 +433,50 @@ h1 {
    } */
 
 
+/****************** DISCOVERIES **************/
+
+
+
+.rowd {
+  width: 30%;
+  float: left;
+  padding: 2% 1% 2% 1%;
+  /* background-color: #eeeeeeb9; */
+
+}
+.rowphoto {
+ width: 30%;
+ float: left;
+ height: 500px;
+ /* padding: 2% 1% 2% 1%; */
+ margin-left: 70px;
+ 
+}
+
+.rowphoto2 {
+  width: 30%;
+  float: right;
+  height: 500px;
+  /* margin-left: 70px; */
+ }
+
+.content4 {
+  width: 80%;
+  padding-left:10%;
+  padding-right:10%;
+  overflow: hidden;
+  /* background-color: #eeeeeeb9; */
+}
+
+/* .rowphoto {
+  clear: both;
+}
+.rowphoto2 {
+  clear: both; */
+
+
+
+
 
 /*************** FOOTER ******************/
 
