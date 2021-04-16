@@ -790,7 +790,7 @@ top:15%}
  }
  
  /* Clear floats after the columns */
- .row:after {
+ .rowcontent:after {
    content: "";
    display: table;
    clear: both;
