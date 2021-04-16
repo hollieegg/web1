@@ -307,17 +307,20 @@ h1 {
 
 
   .titlebanner {
-    position: fixed;
-    top: 50%;
-    left: 50%;
+    position: static;
+    margin-top: 26%;
+    margin-left: 53%;
+    /* top: 100%;
+    left: 50%;  */
     transform: translate(-50%,-50%);
     color: #fff;
     background-color: #88abc6;
     padding: 12px 24px;
     text-align: center;
     font-size: 24px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     letter-spacing: 10px;
+    width: fit-content;
 }
   
 
