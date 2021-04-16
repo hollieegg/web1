@@ -433,6 +433,37 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
 
 /************** PROJECT *******************/
+
+.infotext{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0%;
+  padding-right: 0%;
+  /* background-color: #58595c0a; */
+  width: 100%;
+
+  
+}
+.infotext p{
+  
+  font-size: 18px;
+  font-weight: 800;
+  text-align: justify;
+  color: #58595c;
+}
+
+.infobox{
+  /* background-color: #58595c15; */
+
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+
+ 
+
+}
+
 .content2 {
   padding-left:10%;
   padding-right:10%;
@@ -618,42 +649,11 @@ top:15%}
 /********** CONTACT US ************/
 
 .content3{
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  text-align: left;
+width: 60%;
+padding-left: 11%;
 
 }
 
-.infotext{
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0%;
-  padding-right: 0%;
-  /* background-color: #58595c0a; */
-  width: 100%;
-
-  
-}
-.infotext p{
-  
-  font-size: 18px;
-  font-weight: 800;
-  text-align: justify;
-  color: #58595c;
-}
-
-.infobox{
-  /* background-color: #58595c15; */
-
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 50px;
-
- 
-
-}
 
  /* BUTTON INFO FOR START PAGE https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h*/
  .button {width: 300px}
@@ -707,9 +707,6 @@ top:15%}
    width: 100%;
    height: 100%;
    overflow: hidden;
-   
-
-   
  }
  
  /* Floating column for labels: 25% width */
@@ -718,6 +715,7 @@ top:15%}
    width: 10%;
    margin-top: 6px;
    padding: 5px;
+
  }
  
  /* Floating column for inputs: 75% width */
