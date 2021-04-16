@@ -325,6 +325,115 @@ h1 {
 
 .content {
 
+  padding: 20px;
+}
+
+.row{
+display: flex;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin: 1%;
+}
+
+
+.column {
+width: 100%;
+display: block;
+text-align: center;
+background: #58595c3a;
+border: 1px solid #fafaf791;
+margin: 1%;
+margin-bottom: 2%;
+padding: 6%;
+position: relative;
+
+
+}
+
+
+.column h3,h4{
+color: #58595c;}
+@media screen and (max-width: 1400px) {
+.column {
+  width: auto;
+  
+}}
+.overlay{
+position: absolute;
+bottom: 100%;
+left: 0;
+right: 0;
+background-color: #88abc6;
+overflow: hidden;
+width: 100%;
+height:0;
+transition: .5s ease;
+transition-delay: 0.5s;
+
+}
+
+@media screen and (max-width: 1400px) {
+.overlay {
+  
+  overflow: auto;
+}}
+
+
+.overlay p{
+position: absolute;
+padding: 10%;
+font-family: "arial", sans-serif;
+font-size: larger;
+text-align: left;
+overflow: auto;
+color:white;
+margin-top: 6%;
+line-height: 1.6;
+}
+@media screen and (max-width: 1000px){
+.overlay p{
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 10%;
+  font-size: 160%;
+}}
+
+@media screen and (max-width: 1000px){
+.column h3,h4{
+  
+  font-size: 110%;
+}}
+
+.column img{
+width: 200px;
+height: 200px;
+margin-bottom: 10%;
+
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slidetop*/
+.column:hover .overlay{
+
+bottom: 0;
+height: 100%;
+
+
+}
+
+.column:hover{
+
+box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
+
+
+@media screen and (max-width:1380px) {
+  .row {
+    display:block;
+  }
+
+   
+}
+
+/* .content {
+
     padding: 20px;
 }
 
@@ -358,7 +467,7 @@ h1 {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /************** PROJECT *******************/
 .content2 {
