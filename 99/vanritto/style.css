@@ -768,13 +768,16 @@ padding-left: 11%;
     position: relative;
   }
 }
-
+@media screen and (min-width: 3000px) {
+  .header img{
+  width: 100%;
+}
+}
 
 
 /** mobile devices **/
 @media only screen and (max-device-width: 1000px) {
     .landing, .navbar, .titlebanner, input {
-        width: 100%;
         padding: 2%;
     }
 }
