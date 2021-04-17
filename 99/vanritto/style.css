@@ -242,7 +242,7 @@ h1 {
     display: none;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {display: none;
    }
     .topnav button{display: none;}
@@ -255,7 +255,7 @@ h1 {
     
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -771,6 +771,6 @@ padding-left: 11%;
 /** mobile devices **/
 @media only screen and (max-device-width: 480px) {
     .landing, .navbar, .titlebanner, input {
-        width: 400px;
+        width: 100%;
     }
 }
