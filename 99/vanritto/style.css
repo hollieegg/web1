@@ -244,14 +244,17 @@ h1 {
   
   @media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {display: none;
+  
    }
     .topnav button{display: none;}
     .topnav a.icon {
       float: right;
       display: block;
-      
+      font-size:x-large;
     }
-  
+    #home {
+      font-size:x-large;
+    }
     
   }
   
@@ -287,7 +290,7 @@ h1 {
   @media screen and (max-width: 1400px) {
     .navbar a{
       height: 15px;
-      font-size:relative;
+      
     }}
  
     
@@ -707,7 +710,7 @@ padding-left: 11%;
    background-color:white;
    padding-left: 200px;
   
-   width: 100%;
+  /*  width: 100%;*/
    height: 100%;
    overflow: hidden;
  }
@@ -769,8 +772,9 @@ padding-left: 11%;
 
 
 /** mobile devices **/
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1000px) {
     .landing, .navbar, .titlebanner, input {
         width: 100%;
+        padding: 2%;
     }
 }
