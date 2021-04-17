@@ -72,11 +72,10 @@ h1 {
     letter-spacing: 10px;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .headertext {
-  position: relative;
-  display: block;
-  /* margin-top: -100px; */
+    display: block;
+    
 }
 }
 

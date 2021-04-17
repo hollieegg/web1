@@ -23,8 +23,15 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav" ) {
     x.className += " responsive";
+    
+    if (document.getElementById("headertitle")!= null){
+      document.getElementById("headertitle").style.display="none"
+    }
   } else {
     x.className = "topnav";
+    if (document.getElementById("headertitle")!= null){
+    document.getElementById("headertitle").style.display="block"}
+
   }
 }
 
