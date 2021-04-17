@@ -667,8 +667,8 @@ margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 2%;
 }
-.content3 h4{
 
+.content3 h4{
   padding-bottom: 1%;
   padding-left: 20%;
   padding-right: 20%;
@@ -676,10 +676,7 @@ margin-left: 20%;
   color: white;
   line-height: 1.6;
   font-weight: normal;
-
-
-  
-  }
+ }
 
 
  /* BUTTON INFO FOR START PAGE https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h*/
@@ -702,12 +699,6 @@ margin-left: 20%;
  }
  
  /* Style the submit button */
-/*  To center it?
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-    or just
-  margin: auto;*/
  input[type=button] {
    background-color: #88abc6;
    color: white;
@@ -720,8 +711,7 @@ margin-left: 20%;
    display: block;
   margin-left: 50%;
   margin-right: 50%;
-   
- }
+  }
  
 
  
