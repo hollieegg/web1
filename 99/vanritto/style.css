@@ -655,10 +655,26 @@ top:15%}
 /********** CONTACT US ************/
 
 .content3{
-width: 60%;
-padding-left: 11%;
-
+padding: 2%;
+background-color: #88abc6;
+margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
+.content3 h4{
+
+  padding-bottom: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: x-large;
+  color: white;
+  line-height: 1.6;
+  font-weight: normal;
+
+
+  
+  }
 
 
  /* BUTTON INFO FOR START PAGE https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h*/
@@ -697,8 +713,8 @@ padding-left: 11%;
    float: none;
    width: 100px;
    display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50%;
+  margin-right: 50%;
    
  }
  
@@ -708,9 +724,9 @@ padding-left: 11%;
  .container {
    border-radius: 5px;
    background-color:white;
-   padding-left: 200px;
-  
-  /*  width: 100%;*/
+   padding-left: 20%;
+    /*  width: 100%;*/
+  padding-top:2% ;
    height: 100%;
    overflow: hidden;
  }
@@ -731,6 +747,54 @@ padding-left: 11%;
    margin-top: 6px;
  }
  
+ @media screen and (max-width: 1408px) {
+  .col-25 label{
+    width: max-content;
+    font-size: x-large;
+
+      }
+  .col-25 {
+    float:none;
+
+      }
+
+  .container {
+    padding-left: 0%;
+    margin-left:30% ;
+  }
+  .col-75 input, select, textarea{
+    font-size: x-large;
+  
+  }
+
+  .col-75 select{
+    font-size: x-large;
+  
+  }
+  .col-75 select option{
+    font-size: medium;
+  
+  }
+  .rowcontact input[type=button]{
+    padding: 2%;
+    font-size: larger;
+     margin-right: 20%;
+     margin-left: 46%;
+  }
+  .content3{
+    margin: 0px;
+    height: 150px;
+    overflow: auto;
+    
+  }
+
+  .content3 h4{
+    font-size: medium;
+    
+  }
+
+ }
+
  /* Clear floats after the columns */
  .rowcontent:after {
    content: "";
@@ -740,9 +804,13 @@ padding-left: 11%;
  
 .contentform {
   text-align: center;
-  padding: 20px;
+  padding-top: 3%;
+  padding-bottom: 12%;
+  padding-left: 4%;
   height: 100px;
 }
+
+
 
  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
  @media screen and (max-width: 600px) {
