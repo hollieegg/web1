@@ -699,21 +699,21 @@ top:15%}
 /********** CONTACT US ************/
 
 .content3{
-padding: 2%;
+padding: 5px;
 background-color: #88abc6;
-margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 5%;
-  margin-bottom: 2%;
+margin-left: 21%;
+  margin-right: 24%;
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
 
 .content3 h4{
   padding-bottom: 1%;
-  padding-left: 20%;
-  padding-right: 20%;
-  font-size: x-large;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: large;
   color: white;
-  line-height: 1.6;
+  line-height: 1.4;
   font-weight: normal;
  }
 
