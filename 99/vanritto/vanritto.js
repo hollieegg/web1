@@ -38,3 +38,18 @@ function myFunction() {
 function myFunctionpop() {
   alert("Thank you");
 }
+
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    if (document.getElementById("mainImage")!= null){
+      document.getElementById("mainImage").src  = "images/lbplogolarge2.jpg";    }
+    
+  } else {
+    if (document.getElementById("mainImage")!= null){
+    document.getElementById("mainImage").src = "images/lbplogolarge.jpg";}
+  }
+}
+
+var x = window.matchMedia("(max-width: 1000px)")
+myFunction(x) // Call listener function at run time
+x.addEventListener(this,myFunction) 
