@@ -699,7 +699,7 @@ top:15%}
 /********** CONTACT US ************/
 
 .content3{
-padding: 5px;
+padding: 2px;
 background-color: #88abc6;
 margin-left: 21%;
   margin-right: 24%;
@@ -708,7 +708,8 @@ margin-left: 21%;
 }
 
 .content3 h4{
-  padding-bottom: 1%;
+  padding-bottom: 10px;
+  padding-top: 10px;
   padding-left: 5%;
   padding-right: 5%;
   font-size: large;
