@@ -41,4 +41,3 @@ function myFunctionpop() {
 
 
 
-//document.getElementById("mainImage").src  = "images/lbplogolarge2.jpg";
