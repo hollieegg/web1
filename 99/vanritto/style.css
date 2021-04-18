@@ -708,14 +708,15 @@ margin-left: 21%;
 }
 
 .content3 h4{
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-size: large;
   color: white;
   line-height: 1.4;
   font-weight: normal;
+  /* text-align: left; */
  }
 
 
