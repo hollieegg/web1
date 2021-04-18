@@ -617,6 +617,21 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
     position: fixed;
   }}
 
+  @media screen and (min-width: 3000px){
+    body {
+      padding-bottom: 20%;
+  }
+    .footer{
+      position: fixed;
+    }}
+    @media screen and (min-width: 3000px){
+      body {
+        padding-bottom: 20%;
+    }
+      .footer{
+        position: fixed;
+      }}
+
 
 .footer p{
   padding: 2%;
