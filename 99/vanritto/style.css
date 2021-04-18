@@ -72,11 +72,10 @@ h1 {
     letter-spacing: 10px;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .headertext {
-  position: relative;
-  display: block;
-  /* margin-top: -100px; */
+    display: block;
+    
 }
 }
 
@@ -330,7 +329,6 @@ h1 {
 /************* ABOUT US *******************/
 
 .content {
-
   padding: 20px;
 }
 
@@ -351,8 +349,7 @@ margin: 1%;
 margin-bottom: 2%;
 padding: 6%;
 position: relative;
-
-
+overflow: hidden;
 }
 
 
@@ -619,6 +616,21 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   .footer{
     position: fixed;
   }}
+
+  @media screen and (min-width: 3000px){
+    body {
+      padding-bottom: 20%;
+  }
+    .footer{
+      position: fixed;
+    }}
+    @media screen and (min-width: 3000px){
+      body {
+        padding-bottom: 20%;
+    }
+      .footer{
+        position: fixed;
+      }}
 
 
 .footer p{
