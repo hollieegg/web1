@@ -329,7 +329,6 @@ h1 {
 /************* ABOUT US *******************/
 
 .content {
-
   padding: 20px;
 }
 
@@ -350,8 +349,7 @@ margin: 1%;
 margin-bottom: 2%;
 padding: 6%;
 position: relative;
-
-
+overflow: hidden;
 }
 
 
