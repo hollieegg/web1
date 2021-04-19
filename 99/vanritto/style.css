@@ -589,7 +589,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 } */
 
 /* https://www.w3schools.com/html/html_links_colors.asp */
-.content2 a:link {
+/* .content2 a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -608,7 +608,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-}
+} */
 
 .rowd a:link {
   color: #88abc6;
