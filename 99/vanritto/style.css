@@ -559,11 +559,11 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   /* background-color: #eeeeeeb9; */
 }
 .rowd {
-  width: 30%;
+  width: 31%;
   float: left;
-  padding: 5px 1% 2% 1%;
+  padding: 1%;
   background-color: #58595c09;
-  height: 800px;
+  height: 850px;
   color: black;
   line-height: 150%;
   /* /* overflow: scroll; */
@@ -573,7 +573,8 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
 
 .p2 {
-  padding-top: 20px;
+  padding-top: 6px;
+  padding-left: 15%;
 }
 
 /* .rowd p{
