@@ -515,14 +515,14 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
  font-size: 20px;
 }
 
-.content5 h1 {
+/* .content5 h1 {
       
   padding: 1%;
   text-align: center;
   width:100%;
   padding: 2%;
   margin-bottom: 5%;
-}
+} */
 
 @media screen and (max-width:900px) {
   .content5 h1 {
@@ -652,6 +652,26 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   /* background-color: #eeeeeeb9; */
 }
 
+a:link {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 /* .rowphoto {
   clear: both;
 }
