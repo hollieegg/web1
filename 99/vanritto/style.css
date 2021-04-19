@@ -565,6 +565,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding-bottom: 0px;
   height: 700px;
   color: black;
+  overflow: auto;
 }
 
 
