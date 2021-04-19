@@ -582,13 +582,13 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
   font-size: 16px;
   /* margin: 420px 2px; */
   /* margin-left: 20%; */
   cursor: pointer;
   /* display: grid; */
   margin-left: 30%;
+  
 }
 
 .imageimagetest {
