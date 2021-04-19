@@ -522,8 +522,6 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   width: 59%;
 }
 
-}
-
 .content2 {
   padding-left:10%;
   padding-right:10%;
@@ -533,7 +531,6 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   overflow: hidden;
   text-align: left;
   line-height: 150%;
-
 }
 
 .textleft {
