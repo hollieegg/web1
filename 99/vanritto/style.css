@@ -83,95 +83,7 @@ h1 {
 
 
 /************** NAVBAR **************/
- /*.navbar {
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1;
-    display: block;
-    top:0;
-    left: 0;
-    background-color:#58595c;
-    
- }
 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:none;
-    padding: 8px, 16px;
-    
-  }
-  
-  li {
-    float: left;
-  
- 
-  }
-
-  li a {
-    display: block;
-    color: rgb(230, 230, 230);
-    font-size: 15px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } 
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  } 
-
-  /* Change the link color to #111 (black) on hover 
-  li a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
-    background-color: rgb(230, 227, 227);
-    color: white;
-    border: none;
-    outline: none; 
-
-  }
-
-  .dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #88abc6;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: #58595c;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-  
-  .dropdown-content a {
-    float: none;
-    color:white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
- 
-  .show {
-    display: block;
-  } */
 
   .navbar {
     overflow: hidden;
@@ -621,19 +533,13 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 
 
 
-.rowd {
-  width: 30%;
-  float: left;
-  padding: 2% 1% 2% 1%;
-  /* background-color: #eeeeeeb9; */
-
-}
 .rowphoto {
  width: 30%;
  float: left;
  height: 500px;
  /* padding: 2% 1% 2% 1%; */
  margin-left: 70px;
+ background-color: #58595c09;
  
 }
 
@@ -649,35 +555,54 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding-left:10%;
   padding-right:10%;
   overflow: hidden;
+  
   /* background-color: #eeeeeeb9; */
 }
+.rowd {
+  width: 30%;
+  float: left;
+  padding: 5px 1% 2% 1%;
+  background-color: #58595c09;
+  height: 750px;
+  color: black;
+  line-height: 150%;
+  overflow: auto;
+  /* display: block; */
 
-a:link {
+}
+
+
+/* .rowd p{
+  background-color: #58595c09;
+  padding: 10px;
+  height: 400px;
+  overflow: auto;
+  font-size: 18px;
+  font-weight: 200;
+  color: #777;
+} */
+
+/* https://www.w3schools.com/html/html_links_colors.asp */
+.content2 a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
 }
-a:visited {
+.content2 a:visited {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
+.content2 a:hover {
   color: #88abc6;
   background-color: transparent;
   text-decoration: underline;
 }
-a:active {
+.content2 a:active {
   color: black;
   background-color: transparent;
   text-decoration: underline;
 }
-/* .rowphoto {
-  clear: both;
-}
-.rowphoto2 {
-  clear: both; */
-
 
 
 
