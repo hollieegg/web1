@@ -468,13 +468,19 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   }
   }
 
-
 .rowp {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 59%;
+  padding-left: 20%;
+  padding-top: 30px;
+  overflow:hidden;
+  width: 80%;
 }
+/*.rowp {
+  /* display: block;
+  margin-left: 20%; 
+  /* margin-right: auto; 
+ positi
+  width: 80%;
+} */
 
 .content2 {
   padding-left:10%;
