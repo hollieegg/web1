@@ -377,6 +377,26 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
 
 /************** PROJECT *******************/
+.content5 a:link {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.rowd a:visited {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.rowd a:hover {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.rowd a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 .infotext{
   text-align: center;
@@ -610,7 +630,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   text-decoration: underline;
 } */
 
-.rowd a:link {
+/* .rowd, a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -629,7 +649,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-}
+} */
 
 
 /*************** FOOTER ******************/
