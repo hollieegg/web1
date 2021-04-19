@@ -515,6 +515,28 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
  font-size: 20px;
 }
 
+.content5 h1 {
+      
+  padding: 1%;
+  text-align: center;
+  width:100%;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width:900px) {
+  .content5 h1 {
+      
+    font-size: x-small;
+    padding: 1%;
+    text-align: center;
+    width:100%;
+    padding: 4%;
+    margin-bottom: 10%;
+  }
+  }
+
+
 .rowp {
   display: block;
   margin-left: auto;
