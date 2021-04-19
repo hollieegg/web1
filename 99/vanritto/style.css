@@ -563,7 +563,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   float: left;
   padding: 5px 1% 2% 1%;
   background-color: #58595c09;
-  height: 850px;
+  height: 800px;
   color: black;
   line-height: 150%;
   /* /* overflow: scroll; */
@@ -572,6 +572,9 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 
 }
 
+.p2 {
+  padding-top: 20px;
+}
 
 /* .rowd p{
   background-color: #58595c09;
