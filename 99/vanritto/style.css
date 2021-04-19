@@ -574,7 +574,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 
 .p2 {
   padding-top: 6px;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 /* .rowd p{
@@ -588,22 +588,22 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 } */
 
 /* https://www.w3schools.com/html/html_links_colors.asp */
-.content2 a:link {
+.content2, .rowd a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
 }
-.content2 a:visited {
+.content2, .rowd a:visited {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
 }
-.content2 a:hover {
+.content2, .rowd a:hover {
   color: #88abc6;
   background-color: transparent;
   text-decoration: underline;
 }
-.content2 a:active {
+.content2, .rowd a:active {
   color: black;
   background-color: transparent;
   text-decoration: underline;
