@@ -685,6 +685,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
   .footer{
     position: fixed;
+    padding-bottom: 3%;
   }}
 
   @media screen and (min-width: 3000px){
@@ -727,7 +728,14 @@ top:15%}
   top:25%;
    }
 
-
+   @media screen and (max-width: 600px){
+    .logo1 {
+      display: none;}
+      
+      
+      .logo2 {
+        display: none;
+         }}
    
 /* icons only */
 .socialmedia {
