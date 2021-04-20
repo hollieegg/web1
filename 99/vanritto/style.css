@@ -12,12 +12,12 @@ h3 {
    font-size: 24px;
 }
 
-h2 {
-  text-align: center;
+h2{
+  text-align: left;
+  font-size: 20px;
   font-weight: 700;
+
 }
-
-
 
 body {
   margin:0;
@@ -46,6 +46,56 @@ h1 {
   /* width:93%; */
   margin-bottom: 10px;
 
+}
+
+.links{
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+.links:visited {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.links:hover {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.links:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*********** OVERFLOW SCROLLBARS **************/
+
+ /* Rescource used to customize overflow scrolling https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #88abc6c7;
+  border-radius: 10px;
+  height: 200px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #58595c; 
 }
 
 
@@ -377,7 +427,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 }
 
 /************** PROJECT *******************/
-.content5 a:link {
+/* .content5 a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -396,7 +446,9 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-}
+} */
+
+
 
 .infotext{
   text-align: center;
@@ -488,12 +540,17 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   line-height: 150%;
 }
 
-.textleft h2{
+/* .textleft h2{
     text-align: left;
     font-size: 20px;
   
 }
 
+.textleft2 h2{
+  text-align: left;
+  font-size: 20px;
+
+} */
 
 
 .textleft {
@@ -510,6 +567,19 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   overflow: auto;
 }
 
+.textleft2 {
+  /* background-color: #f0f0f07c; */
+  background-color: #58595c09;
+  float: left;
+  width: 23%;
+  padding: 2%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 700px;
+  color: #58595c;
+  font-size: 16px;
+  overflow: auto;
+}
 
 .imageimage {
   float: left;
@@ -517,7 +587,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   height: 500px;
 }
 
-.button {
+.buttonsol {
   background-color: #88abc6;
   border: none;
   color: white;
@@ -529,7 +599,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   /* margin-left: 20%; */
   cursor: pointer;
   /* display: grid; */
-  margin-left: 30%;
+  margin-left: 60px;
   
 }
 
@@ -546,10 +616,6 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 200%;
-
-  
-  
- 
 }
 
 /* .logosticker {
@@ -557,11 +623,10 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   left:10%;
   top:25%;
    } */
-
-
+ 
 /****************** DISCOVERIES **************/
 
-.textleft a:link {
+/* .textleft a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -580,7 +645,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-}
+} */
 
 
 /* .rowphoto {
@@ -635,7 +700,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding-left: 10%;
 }
 
-.rowd a:link {
+/* .rowd a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -654,7 +719,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-}
+} */
 
 /* https://www.w3schools.com/html/html_links_colors.asp */
 
