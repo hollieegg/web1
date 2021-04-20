@@ -614,11 +614,13 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding: 1%;
   background-color: #58595c09;
   height: 850px;
-  color: black;
   line-height: 150%;
   /* /* overflow: scroll; */
   display: inline-block; 
   overflow: auto;
+  color: #58595c;
+  font-size: 15px;
+  margin-bottom: 50px;
   
 
 }
@@ -633,39 +635,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding-left: 10%;
 }
 
-/* .rowd p{
-  background-color: #58595c09;
-  padding: 10px;
-  height: 400px;
-  overflow: auto;
-  font-size: 18px;
-  font-weight: 200;
-  color: #777;
-} */
-
-/* https://www.w3schools.com/html/html_links_colors.asp */
-/* .content2 a:link {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: none;
-}
-.content2 a:visited {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: none;
-}
-.content2 a:hover {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.content2, a:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-} */
-
-/* .rowd, a:link {
+.rowd a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -684,7 +654,9 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-} */
+}
+
+/* https://www.w3schools.com/html/html_links_colors.asp */
 
 
 /*************** FOOTER ******************/
