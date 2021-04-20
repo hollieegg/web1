@@ -488,6 +488,14 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   line-height: 150%;
 }
 
+.textleft h2{
+    text-align: left;
+    font-size: 20px;
+  
+}
+
+
+
 .textleft {
   /* background-color: #f0f0f07c; */
   background-color: #58595c09;
@@ -497,7 +505,8 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding-top: 0px;
   padding-bottom: 0px;
   height: 700px;
-  color: black;
+  color: #58595c;
+  font-size: 16px;
   overflow: auto;
 }
 
@@ -552,24 +561,44 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
 
 /****************** DISCOVERIES **************/
 
+.textleft a:link {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.textleft a:visited {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.textleft a:hover {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.textleft a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
-.rowphoto {
+/* .rowphoto {
  width: 30%;
  float: left;
  height: 500px;
  /* padding: 2% 1% 2% 1%; */
- margin-left: 70px;
+ /* margin-left: 70px;
  background-color: #58595c09;
  
-}
+} */
 
-.rowphoto2 {
+/* .rowphoto2 {
   width: 30%;
   float: right;
   height: 500px;
   /* margin-left: 70px; */
- }
+
 
 .content4 {
   width: 80%;
@@ -585,53 +614,28 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   padding: 1%;
   background-color: #58595c09;
   height: 850px;
-  color: black;
   line-height: 150%;
   /* /* overflow: scroll; */
   display: inline-block; 
   overflow: auto;
+  color: #58595c;
+  font-size: 15px;
+  margin-bottom: 50px;
   
 
 }
 
+.rowd h2{
+  text-align: center;
+  font-size: 20px;
+
+}
 .p2 {
   padding-top: 6px;
   padding-left: 10%;
 }
 
-/* .rowd p{
-  background-color: #58595c09;
-  padding: 10px;
-  height: 400px;
-  overflow: auto;
-  font-size: 18px;
-  font-weight: 200;
-  color: #777;
-} */
-
-/* https://www.w3schools.com/html/html_links_colors.asp */
-/* .content2 a:link {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: none;
-}
-.content2 a:visited {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: none;
-}
-.content2 a:hover {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.content2, a:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-} */
-
-/* .rowd, a:link {
+.rowd a:link {
   color: #88abc6;
   background-color: transparent;
   text-decoration: none;
@@ -650,7 +654,9 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   color: black;
   background-color: transparent;
   text-decoration: underline;
-} */
+}
+
+/* https://www.w3schools.com/html/html_links_colors.asp */
 
 
 /*************** FOOTER ******************/
