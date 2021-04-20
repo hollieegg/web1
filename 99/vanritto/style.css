@@ -488,6 +488,12 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   line-height: 150%;
 }
 
+.textleft h2{
+    text-align: left;
+    font-size: 20px;
+  
+}
+
 .textleft {
   /* background-color: #f0f0f07c; */
   background-color: #58595c09;
