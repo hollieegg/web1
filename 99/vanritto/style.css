@@ -48,7 +48,27 @@ h1 {
 
 }
 
-
+.links{
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+.links:visited {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.links:hover {
+  color: #88abc6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.links:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /*********** OVERFLOW SCROLLBARS **************/
 
@@ -428,27 +448,7 @@ box-shadow: 6px 6px 1px rgba(49, 49, 49, 0.226);}
   text-decoration: underline;
 }
 
-.links{
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: none;
-  
-}
-.links:visited {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: none;
-}
-.links:hover {
-  color: #88abc6;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.links:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
+
 
 .infotext{
   text-align: center;
