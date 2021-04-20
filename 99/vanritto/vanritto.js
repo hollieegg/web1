@@ -34,7 +34,8 @@ function myFunction() {
 
   }
 }
-
+//https://www.w3schools.com/js/js_events.asp
+// code for button on Contact Us page submit popup
 function myFunctionpop() {
   alert("Thank you");
 }
