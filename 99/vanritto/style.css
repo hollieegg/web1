@@ -70,6 +70,28 @@ h1 {
   text-decoration: underline;
 }
 
+.links2{
+  color: #252627;
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+.links2:visited {
+  color:  #252627;
+  background-color: transparent;
+  text-decoration: none;
+}
+.links2:hover {
+  color:  #252627;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.links2:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /*********** OVERFLOW SCROLLBARS **************/
 
  /* Rescource used to customize overflow scrolling https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
@@ -819,6 +841,7 @@ margin-left: 21%;
   margin-right: 24%;
   margin-top: 2%;
   margin-bottom: 0%;
+  
 }
 
 .content3 h4{
@@ -826,10 +849,11 @@ margin-left: 21%;
   padding-top: 4px;
   padding-left: 12px;
   padding-right: 12px;
-  font-size: large;
+  /* font-size: large; */
   color: white;
   line-height: 1.4;
   font-weight: normal;
+  font-size: 16px;
   /* text-align: left; */
  }
 
