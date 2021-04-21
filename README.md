@@ -5,8 +5,5 @@ Git Repository for group project.
 
 Team Members are: 
 
-Hollie Eggleton
-Dana Mckee
-Jennifer Debono
-Raghad Estanbouli
+Hollie Eggleton, Dana Mckee, Jennifer Debono, Raghad Estanbouli
     
