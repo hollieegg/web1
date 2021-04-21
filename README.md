@@ -2,4 +2,11 @@
 ## Group: Web 1
 
 Git Repository for group project. 
-Readme will be updated. 
+
+Team Members are: 
+
+Hollie Eggleton
+Dana Mckee
+Jennifer Debono
+Raghad Estanbouli
+    
