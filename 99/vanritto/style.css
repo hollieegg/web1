@@ -296,6 +296,20 @@ h1 {
     width: fit-content;
 }
 
+.titlebanner a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.titlebanner a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.titlebanner a:hover{
+  color: #777;
+  text-decoration: none;
+}
 @media screen and (max-width: 1000px) {
 .titlebanner {
     position:absolute;
